@@ -1,10 +1,10 @@
 import { Link } from "lucide-react";
 import Image from "next/image";
-import loclaFont from "next/font/local";
+import localFont from "next/font/local";
 
 import { cn } from "@/lib/utils";
 
-const headingFont = loclaFont({
+const headingFont = localFont({
     src: "../../public/fonts/font.woff2",
 });
 
